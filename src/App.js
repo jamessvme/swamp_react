@@ -1,21 +1,46 @@
+import { useState } from 'react';
+import { useImmerReducer } from 'use-immer';
 
-import sampleData  from './sampleData';
+
+
 
 import Header from './components/Header';
-import Feature from './components/Feature';
+
+import ProductList from './components/ProdctList';
+import FaveritesList from './components/FaveritesList';
+
+const reducer = (faverates, action) => {
+  switch(action.type) {
+    case "ADD": return void faverates.push(action.item);
+    case "DELETE": return faverates.filter(item => item.title !== action.item.title);
+  }
+}
 
 function App() {
+  
+  const [faverates, dispatch] = useImmerReducer(reducer, []);
+  const [tab, setTab] = useState(true);
 
   return (
-    <div className="container mx-auto">
-      <Header />
-      <main className='bg-[]'>
-        <Feature 
-          featureData={sampleData.featureData}
+    <>
+      <Header 
+       faverates={faverates}
+       setTab={setTab}
+       tab={tab}
+      />
+      {tab ? 
+        <ProductList 
+          dispatch={dispatch}
+          faverates={faverates}
         />
-
-      </main>
-    </div>
+      :
+      <FaveritesList 
+        faverates={faverates}
+        dispatch={dispatch}
+      />
+    }
+  
+    </>
   );
 }
 

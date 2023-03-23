@@ -5,5 +5,223 @@
     "time":  "2022年11月11日グランドオープン。",
     "how": "営業時間等は上記リンクをご参照ください。",
     "price": "店内飲酒時の缶、瓶の抜栓料は100円になります。"
-  }
+  },
+  "categories": [
+      {
+        "header": "Tap List / Draft",
+        "items": [
+          {
+            "title": "1.Come back/Izumi/Sour",
+            "price": "¥ 750",
+            "img": "room.jpg",
+            "price_desc": "473ml:￥1250 /280ml:￥750 /ABV 7.5% IBU20"
+          },
+          {
+            "title": "2.Come back/Izumi/Sour",
+            "price": "¥ 750",
+            "img": "room.jpg",
+            "price_desc": "473ml:￥1250 /280ml:￥750 /ABV 7.5% IBU20"
+          },
+          {
+            "title": "3.Come back/Izumi/Sour",
+            "price": "¥ 750",
+            "img": "room.jpg",
+            "price_desc": "473ml:￥1250 /280ml:￥750 /ABV 7.5% IBU20"
+          },
+          {
+            "title": "4.Come back/Izumi/Sour",
+            "price": "¥ 750",
+            "img": "room.jpg",
+            "price_desc": "473ml:￥1250 /280ml:￥750 /ABV 7.5% IBU20"
+          },
+          {
+            "title": "5.Come back/Izumi/Sour",
+            "price": "¥ 750",
+            "img": "room.jpg",
+            "price_desc": "473ml:￥1250 /280ml:￥750 /ABV 7.5% IBU20"
+          },
+          {
+            "title": "6.Come back/Izumi/Sour",
+            "price": "¥ 750",
+            "img": "room.jpg",
+            "price_desc": "473ml:￥1250 /280ml:￥750 /ABV 7.5% IBU20"
+          }
+
+        ]
+      },
+       {
+        "header": "Apéro",
+        "sub": "アペロ/ちょっとしたおつまみ",
+        "items": [
+          {
+            "title": "金柑のピクルス",
+            "price": "¥ 280",
+            "img": "room.jpg"
+          },
+          {
+            "title": "スペイン風オムレツ",
+            "price": "¥ 420",
+            "img": "room.jpg"
+          },
+          {
+            "title": "ヤムヘッド",
+            "price": "¥ 300",
+            "img": "room.jpg",
+            "price_desc": "タイ風キノコサラダ"
+          }
+        ]
+      },
+       {
+        "header": "Bagel",
+        "sub": "ベーグル/ベーグルドッグ",
+        "items": [
+          {
+            "title": "飴色たまねぎとガーリックペッパーチーズ",
+            "price": "¥ 400",
+            "img": "room.jpg",
+            "price_desc": "ベーグル"
+          },
+          {
+            "title": "とうもろこしチェダーチーズ",
+            "price": "¥ 350",
+            "img": "room.jpg",
+            "price_desc": "ベーグル"
+          },
+          {
+            "title": "ローズマリー×じゃいも×",
+            "price": "¥ 350",
+            "img": "room.jpg",
+            "price_desc": "ベーグル"
+          },
+          {
+            "title": "ローズマリー×じゃがいも×",
+            "price": "¥ 350",
+            "img": "room.jpg",
+            "price_desc": "ベーグル"
+          }
+        ]
+      },
+      {
+        "header": "Nuts / etc.",
+        "sub": "その他おつまみ",
+        "items": [
+          {
+            "title": "ミックスナッツ",
+            "price": "¥ 250",
+            "img": "room.jpg"
+          },
+          {
+            "title": "レッドチキンカレdービーンズ",
+            "price": "¥ 250",
+            "img": "room.jpg"
+          },
+          {
+            "title": "塩キャラメル、dフライビーンズ",
+            "price": "¥ 250",
+            "img": "room.jpg"
+          },
+          {
+            "title": "ポテトチップス",
+            "price": "¥ 200",
+            "img": "room.jpg"
+          }
+        ]
+      },
+      {
+        "header": "GIN,ABSINTHE/虎ノ門蒸留所/東京",
+        "sub": "ソーダ割+￥100",
+        "items": [
+          {
+            "title": "COMMON",
+            "price": "¥ 1000",
+            "img": "room.jpg",
+            "price_desc": "GIN"
+          },
+          {
+            "title": "レッドチキンレービーンズ",
+            "price": "¥ 250",
+            "img": "room.jpg",
+            "price_desc": "GIN"
+          },
+          {
+            "title": "塩キャラメル、フライビーンズ",
+            "price": "¥ 250",
+            "img": "room.jpg",
+            "price_desc": "GIN"
+          },
+          {
+            "title": "ポテトチップス",
+            "price": "¥ 200",
+            "img": "room.jpg",
+            "price_desc": "GIN"
+          },
+          {
+            "title": "レッドキンカレービーンズ",
+            "price": "¥ 250",
+            "img": "room.jpg",
+            "price_desc": "GIN"
+          },
+          {
+            "title": "塩キャメル、フライビーンズ",
+            "price": "¥ 250",
+            "img": "room.jpg",
+            "price_desc": "GIN"
+          },
+          {
+            "title": "ポテトチプス",
+            "price": "¥ 200",
+            "img": "room.jpg",
+            "price_desc": "GIN"
+          }
+        ]
+      },
+      {
+        "header": "Brandy/MITOSAYA/千葉",
+        "sub": "ソーダ割+￥100",
+        "items": [
+          {
+            "title": "045 TOSA ENCOUNTER / Batch No.176",
+            "price": "¥ 1000",
+            "img": "room.jpg",
+            "price_desc": "GIN"
+          },
+          {
+            "title": "045 TOA ENCOUNTER / Batch No.176",
+            "price": "¥ 250",
+            "img": "room.jpg",
+            "price_desc": "GIN"
+          },
+          {
+            "title": "018 MRINARA",
+            "price": "¥ 250",
+            "img": "room.jpg",
+            "price_desc": "GIN"
+          },
+          {
+            "title": "030 WHIT ICHIMIYA PEACH",
+            "price": "¥ 200",
+            "img": "room.jpg",
+            "price_desc": "GIN"
+          },
+          {
+            "title": "025 NAGOUSUKU SAKURA",
+            "price": "¥ 250",
+            "img": "room.jpg",
+            "price_desc": "GIN"
+          },
+          {
+            "title": "017 SOMOMOPLUM / #1",
+            "price": "¥ 250",
+            "img": "room.jpg",
+            "price_desc": "GIN"
+          },
+          {
+            "title": "ポテトチプス",
+            "price": "¥ 200",
+            "img": "room.jpg",
+            "price_desc": "GIN"
+          }
+        ]
+      }
+  ]
 }
